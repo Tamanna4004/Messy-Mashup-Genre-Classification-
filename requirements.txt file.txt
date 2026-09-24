@@ -1,0 +1,41 @@
+# Requirements for Messy_mashup_genre_project_code_file.ipynb
+# Install with: pip install -r requirements.txt
+#
+# NOTE: `kaggle_secrets` is a Kaggle-internal package used to retrieve HF_TOKEN.
+# It is NOT pip-installable and only works inside a Kaggle notebook environment.
+# To run locally, replace that block with:
+#   import os
+#   os.environ["HF_TOKEN"] = "your_huggingface_token_here"
+# Or use `python-dotenv` to load it from a .env file.
+
+# Core Data / Numerics
+numpy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Audio Processing
+librosa
+torchaudio
+
+# Deep Learning (PyTorch)
+# For GPU support, visit: https://pytorch.org/get-started/locally/
+torch
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Hugging Face Ecosystem
+transformers
+datasets
+huggingface_hub
+
+# Experiment Tracking (used in commented-out W&B logging cells)
+wandb
+
+# Utilities
+tqdm
+ipython
